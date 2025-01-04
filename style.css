@@ -1,0 +1,322 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#container {
+    width: 1000px;
+    height: 500px;
+    margin: 2px auto;
+}
+
+#calculator {
+    width: 340px;
+    height: 585px;
+    background-color: grey;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px black, 0 6px black 20px 0 black;
+}
+
+#keyboard {
+    height: 400px;
+    width: auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+}
+
+.operator,
+.number,
+.empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.operator:active,
+.number:active {
+    font-size: 15px;
+}
+
+.operator:focus,
+.number:focus,
+.empty:focus {
+    outline: 0;
+}
+
+#result {
+    height: 120px;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+
+
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 25px;
+}
+
+button:nth-child(4) {
+    font-size: 25px;
+    background-color: greenyellow;
+    color:black;
+
+}
+
+button:nth-child(8) {
+    font-size: 25px;
+    background-color: greenyellow;
+    color: black;
+
+}
+
+button:nth-child(12) {
+    font-size: 25px;
+    background-color: greenyellow;
+    color: black;
+
+}
+
+button:nth-child(16) {
+    font-size: 25px;
+    background-color: greenyellow;
+    color: black;
+
+}
+
+button:nth-child(20) {
+        font-size: 25px;
+        background-color: greenyellow;
+        color: black;
+}
+
+.result{
+    font-size: large;
+    height: 25px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Reset & Global Styles
+
+* {
+
+box-sizing: border-box;
+
+padding: 0;
+
+margin: 0;
+
+font-family: "Open Sans", sans-serif;
+
+font-weight: bold;
+
+}
+
+::placeholder {
+
+color: rgb(221, 221, 221);
+
+opacity: 0.3;
+
+}
+
+.wrapper {
+
+height: 100%;
+
+width: 100%;
+
+display: flex;
+
+justify-content: center;
+
+flex-direction: column;
+
+align-items: center;
+
+background-color: rgb(20, 19, 19);
+
+transition: 0.8s all;
+
+}
+
+h1 {
+
+text-align: center;
+
+margin-bottom: 1.5%;
+
+color: #fff;
+
+}
+
+.container {
+
+width: 300px;
+
+}
+
+.result {
+
+width: 59.1%;
+
+}
+
+input {
+
+padding: 25px;
+
+color: rgb(255, 255, 255);
+
+font-size: 1em;
+
+cursor: pointer;
+
+width: 70px;
+
+background-color: rgb(47, 51, 50);
+
+border: none;
+
+outline: none;
+
+border-radius: 4px;
+
+}
+
+.row {
+
+margin-bottom: 3px;
+
+}
+
+input[type="text"] {
+
+background-color: rgb(47, 51, 50);
+
+width: 218px;
+
+}
+
+input[type="button"]:hover {
+
+background-color: rgb(160, 160, 160);
+
+color: #fff;
+
+}
+
+button {
+
+border: none;
+
+background-color: rgb(39, 36, 36);
+
+padding: 8px;
+
+color: white;
+
+margin: 2px;
+
+cursor: pointer;
+
+outline: none;
+
+border-radius: 4px;
+
+font-size: 0.8em;
+
+font-weight: 200;
+
+}
+
+.clear-button{
+
+color: #fff;
+
+background-color: rgb(255, 42, 42);
+
+width: 97.5%;
+
+}
+
+a {
+
+text-decoration: none;
+
+color: #fff;
+
+border: none;
+
+background-color: rgb(39, 36, 36);
+
+padding: 8px;
+
+color: white;
+
+margin: 2px;
+
+border-radius: 4px;
+
+font-size: 0.8em;
+
+font-weight: 200;
+
+}
+
+.bottom-buttons {
+
+display: flex;
+
+margin-left: -2.3px;
+
+}
+
+.fab {
+
+font-size: 1.1em;
+
+} */
